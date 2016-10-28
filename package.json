@@ -1,0 +1,31 @@
+{
+    "name": "hb-forms"
+    , "version": "0.0.1"
+    , "dependencies":{
+        "browserify":"*"
+        , "gulp":"*"
+        , "gulp-watch":"*"
+        , "gulp-uglify":"*"
+        , "gulp-sourcemaps":"*"
+        , "gulp-util":"*"
+        , "gulp-babel":"*"
+        , "babel-preset-es2015":"*"
+        , "gulp-less":"*"
+        , "gulp-concat":"*"
+        , "gulp-replace":"*"
+        , "gulp-minify-css":"*"
+
+        , "merge-stream":"*"
+        , "vinyl-source-stream":"*"
+        , "vinyl-buffer":"*"
+        , "mithrilify":"*"
+
+        , "mithril":"*"
+        , "lw-model":"*"
+        , "handlebars":"*"
+    }
+    , "scripts": {
+        "build": "node build/index.js"
+    }
+    , "private":true
+}
